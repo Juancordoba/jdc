@@ -36,7 +36,7 @@ export default class App {
 
 
     listen = () => {
-        const bnc = new BinanceJDC()
+/*        const bnc = new BinanceJDC()
         const symbols = [{symbol:'BTCUSDT', collection: 'btcusdt'},{symbol:'XRPUSDT', collection: 'xrpusdt'},{symbol:'SHIBUSDT', collection: 'shibusdt'}]
             mongoose.connect('mongodb://127.0.0.1:27017/test')
             .then(() => {
@@ -51,7 +51,7 @@ export default class App {
                     })
                 })
 
-            })
+            }) */
         this.app.listen(4000, () => {
             console.log('server on port 4000');
         })
